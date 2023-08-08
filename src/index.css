@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea{
+  height: 100px;
+}
+
+.container {
+  margin-top: 3rem;
+}
+/*-------------------------------------------*/
+/*  見出し
+/*-------------------------------------------*/
+h1 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/*-------------------------------------------*/
+/*  Button
+/*-------------------------------------------*/
+button {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+button:hover {
+  transition: 0.3s;
+}
+/* ※ aタグ用 */
+.btn {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn:hover {
+  transition: 0.3s;
+}
+/* 楕円ボタン */
+.btn-black-radius {
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid #f2f2f2;
+  color:white;
+}
+.btn-black-radius:hover {
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  color:black;
+}
+/* 角丸四角ボタン */
+.btn-gray-square {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid gray;
+  color:black;
+}
+.btn-gray-square:hover {
+  border-radius: 5px;
+  background-color: gray;
+  border: 1px solid gray;
+  color:white;
+}
+/* 削除ボタン */
+.btn-delete {
+  border-radius: 5px;
+  background-color: #e91e63;
+  border: 1px solid #e91e63;
+  color:white;
+}
+.btn-delete:hover {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #e91e63;
+  color:#e91e63;
+}

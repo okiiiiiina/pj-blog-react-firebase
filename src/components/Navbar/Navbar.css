@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #f2f2f2;
+}
+
+nav a {
+    padding: 5px 15px;
+    color: black;
+}
+
+nav .active {
+    border-bottom: 1px solid gray;
+}
